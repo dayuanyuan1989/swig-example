@@ -3,7 +3,7 @@
 文件结构
 
 ```
-├── build.sh
+├── build_and_run.sh
 ├── example.cpp  # c++
 ├── example.h    # c++
 ├── example.i    # swig 配置文件
@@ -13,7 +13,8 @@
 └── setup.py     # python 包
 ```
 
-``` 安装使用
-python3 -m pip install -e .
-python3 main.py
+安装使用
+
+``` 
+bash -x build_and_run.sh
 ```
